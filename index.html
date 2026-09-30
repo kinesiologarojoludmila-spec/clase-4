@@ -7,14 +7,42 @@
 </head>
 <body>
 
-    <form action="submit.php" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required autocomplete="off">
-        <br><br>
-        <input type="submit" value="Submit">
-    
-</body>
-</html>
+    <header>
+        <h1>Piume Esencias</h1>
+    </header>
+
+    <section>
+
+    <form>
+        <input type="text" placeholder="ingresa tu nombre" required autocomplete="off">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+
+        <input type="email" placeholder="ingresa tu correo" required autocomplete="off">
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo">
+
+        <input type="date" placeholder="ingresa la fecha de hoy" required autocomplete="off">
+        <label for="fecha_actual">Fecha de nacimiento:</label>
+        <input type="date" id="fecha_actual" name="fecha_actual">
+
+        <input type="select" placeholder="selecciona tu rango etario" required autocomplete="off">
+        <label for="rango_etario">Rango etario:</label>
+        <input type="radio" id="rango_1" name="rango_etario" value="18-25">
+        <label for="rango_1">18-25</label>
+        <input type="radio" id="rango_2" name="rango_etario" value="26-35">
+        <label for="rango_2">26-35</label>
+        <input type="radio" id="rango_3" name="rango_etario" value="36-45">
+        <label for="rango_3">36-45</label>
+
+       <input type="checkbox" placeholder="selecciona tus intereses" required autocomplete="off">
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    </section>
+
+<section>
+    <h2>Formulario</h2>
+    <form></form>
+</section>
