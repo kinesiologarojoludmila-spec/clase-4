@@ -70,6 +70,17 @@
             <input type="email" placeholder="ingresa tu correo" required autocomplete="off">
         </div>
         <br>
+
+        <div class="form-group">
+  <label for="genero">Género / Identidad:</label>
+  <select id="genero" name="genero" required>
+    <option value="" disabled selected>Seleccione una opción</option>
+    <option value="femenino">Femenino</option>
+    <option value="masculino">Masculino</option>
+    <option value="no_binario">No binario / Otro</option>
+    <option value="no_responde">Prefiero no responder</option>
+  </select>
+</div>
         
         <h3>Selecciona tu rango etario:</h3>
         <div id="rango-etario">
@@ -80,6 +91,15 @@
             <input type="radio" id="rango-etario-3" name="rango_etario" value="36-45">
             <label for="rango-etario-3">36-45</label>
         <br>
+ <div class="form-group">
+  <label for="motivo_consulta">Motivo de consulta / Síntomas:</label>
+  <textarea 
+    id="motivo_consulta" 
+    name="motivo_consulta" 
+    rows="4" 
+    placeholder="Contanos brevemente qué molestias sentís (ej. dolor de talón, postura, actividad deportiva...) o la razón de tu consulta."
+    maxlength="500"></textarea>
+</div>
        <br>
         <input type="submit" value="Enviar">
         </div>
