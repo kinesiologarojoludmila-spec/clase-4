@@ -3,46 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LudmilaRojo Studio & Plantillas Personalizadas Ebers</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header>
-        <h1>Piume Esencias</h1>
+        <section class="encabezado">
+           <div id="logo"><img src="logo-lr&ebers.jpg" alt="Logo Marca" width="200" height="100">
+            </div>
+
+           <nav id="barra-navegacion">
+                <a href="Inicio" > Inicio </a> 
+                <a href="¿Por que elegirnos" > ¿Por qué elegirnos? </a> 
+                <a href="servicios" > Servicios </a> 
+                <a href="el proceso" > El proceso </a> 
+                <a href="preguntas frecuentes" > Preguntas frecuentes </a> 
+           </div>
+
+           </nav>
+            
+        
+        </section>
     </header>
+<br>
 
-    <section>
+<main id="descripcion">
+    <h1>Camina sin dolor con tu pisada perfecta.</h1> 
+    <p>En <em>LudmilaRojo Studio & Ebers</em> combinamos el diagnóstico especializado de postura y pisada con plantillas inteligentes de alta precisión para cuidar tu salud corporal.</p>
+</main>
 
-    <form>
-        <input type="text" placeholder="ingresa tu nombre" required autocomplete="off">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre">
 
-        <input type="email" placeholder="ingresa tu correo" required autocomplete="off">
-        <label for="correo">Correo:</label>
-        <input type="email" id="correo" name="correo">
+<section id="elegirnos">
+    <h3>¿Por qué elegirnos?</h3>
+    <h1>Tecnología Ebers + Atención Integral y Personalizada</h1>
+    <p>A diferencia de las plantillas genéricas, en LudmilaRojo Studio & Ebers realizamos un análisis clínico computarizado para confeccionar una plantilla ortopédica que responda exactamente a la anatomía de tu pie y a tus hábitos corporales.</p>
 
-        <input type="date" placeholder="ingresa la fecha de hoy" required autocomplete="off">
-        <label for="fecha_actual">Fecha de nacimiento:</label>
-        <input type="date" id="fecha_actual" name="fecha_actual">
+    <article>
+    <h3>Beneficios claves del sistema</h3>
+    <ul>
+        <li>Alivio del dolor</li>
+        <li>Alineación corporal</li>
+        <li>Rendimiento físico</li>
+        <li>Prevención de lesiones</li>
+    </ul>
+    </article>
+</section>
 
-        <input type="select" placeholder="selecciona tu rango etario" required autocomplete="off">
-        <label for="rango_etario">Rango etario:</label>
-        <input type="radio" id="rango_1" name="rango_etario" value="18-25">
-        <label for="rango_1">18-25</label>
-        <input type="radio" id="rango_2" name="rango_etario" value="26-35">
-        <label for="rango_2">26-35</label>
-        <input type="radio" id="rango_3" name="rango_etario" value="36-45">
-        <label for="rango_3">36-45</label>
 
-       <input type="checkbox" placeholder="selecciona tus intereses" required autocomplete="off">
+<cite>Un abordaje integral para aliviar molestias y mejorar tu calidad de vida.</cite>
 
-        <input type="submit" value="Enviar">
-    </form>
-
-    </section>
 
 <section>
-    <h2>Formulario</h2>
-    <form></form>
+        <h3>¿Te interesa obtener más información?</h3>
+        <p>Por favor, completa el siguiente formulario para ponerte en contacto con nosotros. Nos comprometemos a responder a tu consulta lo antes posible.</p>
+
+    <form>
+        <div id="datos-personales">
+            <input type="text" placeholder="ingresa tu nombre" required autocomplete="off">
+            <input type="email" placeholder="ingresa tu correo" required autocomplete="off">
+        </div>
+        <br>
+        
+        <h3>Selecciona tu rango etario:</h3>
+        <div id="rango-etario">
+            <input type="radio" id="rango-etario-1" name="rango_etario" value="18-25">
+            <label for="rango-etario-1">18-25</label>
+            <input type="radio" id="rango-etario-2" name="rango_etario" value="26-35">
+            <label for="rango-etario-2">26-35</label>
+            <input type="radio" id="rango-etario-3" name="rango_etario" value="36-45">
+            <label for="rango-etario-3">36-45</label>
+        <br>
+       <br>
+        <input type="submit" value="Enviar">
+        </div>
+</form>
 </section>
+
+
+
+
+<footer>
+    <div id="ubicacion">
+        <a href="logo-ubicacion.webp" alt="logo ubicación"> </a>
+        <p><strong>Olavarría</strong> | Pcia de Bs As | Argentina</p>
+    </div>
+</footer>
+
+    </html>
